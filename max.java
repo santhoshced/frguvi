@@ -1,4 +1,4 @@
-package main1;
+
 import java.util.Scanner;
 import java.util.ArrayList;  
 class max
@@ -16,11 +16,10 @@ class max
 		{
 			for(int j=0;j<a;j++)
 			{
-				System.out.println("row["+i+"]coloumn["+j+"]");
+			    System.out.println("row["+i+"]coloumn["+j+"]");
 			    m[i][j]=n.nextInt();
 			}
 		}
-			
 		System.out.println("the matrix is");
 		for(int k=0;k<a;k++)
 		{
@@ -31,21 +30,17 @@ class max
 		 }
 		System.out.println();
 		}
-		
-	
 	System.out.println("the result is");
 	for(int i=0;i<a;i++)
 	{
 		for(int j=0;j<a;j++)
 		{
 			if(m[i][j]==0)
-				
 			{
 				cz.add(i);
 			    x.add(j);		
 			}
-			   
-		}
+	        }
 	}		
 			
 	for(int i=0;i<cz.size();i++)
@@ -68,9 +63,7 @@ class max
 	    	}
 	    }
 	}
-	
-	    
-	    for(int h=0;h<a;h++)
+	for(int h=0;h<a;h++)
 	{
 		for(int g=0;g<a;g++)
 		{
@@ -79,8 +72,6 @@ class max
 		}
 	System.out.println();
 	}
-	
-	
 }}			
 		
 		
