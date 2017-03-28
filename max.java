@@ -8,10 +8,10 @@ class max
 		int m[][]=new int[20][20];
 		ArrayList<Integer> cz=new ArrayList<Integer>();
 		ArrayList<Integer> x=new ArrayList<Integer>();
-		System.out.println("enter the no.of rows and coloumn");
+		System.out.println("enter the n value for n*n matrix must be above 1");
 		Scanner n=new Scanner(System.in);
 		int a=n.nextInt();
-		System.out.println("enter the matrix");
+		System.out.println("enter the matrix 0's and 1's");
 		for(int i=0;i<a;i++)
 		{
 			for(int j=0;j<a;j++)
