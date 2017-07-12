@@ -29,13 +29,7 @@ namespace ConsoleApplication1
             }
             return g;
         }
-        
-        
-        
-        
-        
-        
-        public static void Main(string[] args)
+     public static void Main(string[] args)
         {
             
             con m=new con();
